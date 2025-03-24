@@ -51,6 +51,9 @@ cmake --preset default
 
 # Build the project using CMake presets
 cmake --build --preset default
+
+# Runn the app
+mpirun -np 2 --oversubscribe  build/default/myapp/myapp
 ----
 
 === Running the Tests
